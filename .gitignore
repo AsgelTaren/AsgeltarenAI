@@ -6,4 +6,7 @@ build
 bin
 
 # Eclipse
-.settings 
+.settings
+
+# Test
+src/test/

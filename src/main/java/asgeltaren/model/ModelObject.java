@@ -19,6 +19,8 @@ public abstract class ModelObject {
 
 	public abstract Pin defaultOutput();
 
+	public abstract void provide(Object[] data);
+
 	// Pins management
 
 	public Pin getPinAt(int index) {
